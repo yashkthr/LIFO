@@ -1,30 +1,30 @@
 module LIFObuffer( dataIn,
 
-       dataOut,
+dataOut,
 
-       RW,
+RW,
 
-       EN,
+EN,
 
-       Rst,
+Rst,
 
-       EMPTY,
+EMPTY,
 
-       FULL,
+FULL,
 
-       Clk
+Clk
 
-      );
+);
 
 input [3:0]  dataIn;
 
 input        RW,
 
- EN,
+EN,
 
- Rst,
+Rst,
 
- Clk;
+Clk;
 
 
 
