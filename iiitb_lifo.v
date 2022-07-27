@@ -1,4 +1,4 @@
-module LIFObuffer( dataIn,
+module iiitb_lifo( dataIn,
 
 dataOut,
 
