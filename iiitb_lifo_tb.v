@@ -46,6 +46,9 @@ iiitb_lifo uut (
              );
 
 initial begin
+  
+$dumpfile ("mux_out.vcd"); //by default vcd
+	$dumpvars(0, tb_mux);  
 
 // Initialize Inputs
 
@@ -96,5 +99,9 @@ RW  = 1'b1;
 end 
 
 always #10 Clk = ~Clk;
+  
+#500 $finish
+  
+
 
 endmodule
