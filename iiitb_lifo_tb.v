@@ -3,98 +3,98 @@
 
 module LIFObuffer_tb;
 
- // Inputs
+// Inputs
 
- reg [3:0] dataIn;
+reg [3:0] dataIn;
 
- reg RW;
+reg RW;
 
- reg EN;
+reg EN;
 
- reg Rst;
+reg Rst;
 
- reg Clk;
+reg Clk;
 
- // Outputs
+// Outputs
 
- wire [3:0] dataOut;
+wire [3:0] dataOut;
 
- wire EMPTY;
+wire EMPTY;
 
- wire FULL;
+wire FULL;
 
- // Instantiate the Unit Under Test (UUT)
+// Instantiate the Unit Under Test (UUT)
 
- LIFObuffer uut (
+LIFObuffer uut (
 
-                 .dataIn(dataIn), 
+              .dataIn(dataIn), 
 
-                 .dataOut(dataOut), 
+              .dataOut(dataOut), 
 
-                 .RW(RW), 
+              .RW(RW), 
 
-                 .EN(EN), 
+              .EN(EN), 
 
-                 .Rst(Rst), 
+              .Rst(Rst), 
 
-                 .EMPTY(EMPTY), 
+              .EMPTY(EMPTY), 
 
-                 .FULL(FULL), 
+              .FULL(FULL), 
 
-                 .Clk(Clk)
+              .Clk(Clk)
 
-                );
+             );
 
- initial begin
+initial begin
 
-  // Initialize Inputs
+// Initialize Inputs
 
-  dataIn  = 4'h0;
+dataIn  = 4'h0;
 
-  RW  = 1'b0;
+RW  = 1'b0;
 
-  EN  = 1'b0;
+EN  = 1'b0;
 
-  Rst  = 1'b1;
+Rst  = 1'b1;
 
-  Clk  = 1'b0;
+Clk  = 1'b0;
 
-  // Wait 100 ns for global reset to finish
+// Wait 100 ns for global reset to finish
 
-  #100;      
+#100;      
 
-  // Add stimulus here
+// Add stimulus here
 
-  EN   = 1'b1;
+EN   = 1'b1;
 
-  Rst  = 1'b1;
+Rst  = 1'b1;
 
-  #40;
+#40;
 
-  Rst     = 1'b0;
+Rst     = 1'b0;
 
-  RW      = 1'b0;
+RW      = 1'b0;
 
-  dataIn  = 4'h0;
+dataIn  = 4'h0;
 
-  #20;
+#20;
 
-  dataIn = 4'h2;
+dataIn = 4'h2;
 
-  #20;
+#20;
 
-  dataIn = 4'h4;
+dataIn = 4'h4;
 
-  #20;
+#20;
 
-  dataIn = 4'h6;
+dataIn = 4'h6;
 
-  #20;
+#20;
 
-  RW  = 1'b1;
+RW  = 1'b1;
 
- end 
+end 
 
-   always #10 Clk = ~Clk;
+always #10 Clk = ~Clk;
 
 endmodule
