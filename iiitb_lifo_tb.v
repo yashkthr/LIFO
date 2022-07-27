@@ -1,7 +1,7 @@
 
 `timescale 1ns / 1ps
 
-module LIFObuffer_tb;
+module iiitb_lifo_tb;
 
 // Inputs
 
@@ -25,7 +25,7 @@ wire FULL;
 
 // Instantiate the Unit Under Test (UUT)
 
-LIFObuffer uut (
+iiitb_lifo uut (
 
               .dataIn(dataIn), 
 
