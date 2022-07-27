@@ -1,2 +1,1 @@
-# iiitb_lifo
-Last-in-First-out Buffer
+# iiitb_lifo - Last-in-First-out Buffer
