@@ -1,36 +1,36 @@
 module LIFObuffer( dataIn,
 
-                   dataOut,
+       dataOut,
 
-                   RW,
+       RW,
 
-                   EN,
+       EN,
 
-                   Rst,
+       Rst,
 
-                   EMPTY,
+       EMPTY,
 
-                   FULL,
+       FULL,
 
-                   Clk
+       Clk
 
-                  );
+      );
 
 input [3:0]  dataIn;
 
 input        RW,
 
-             EN,
+ EN,
 
-             Rst,
+ Rst,
 
-             Clk;
+ Clk;
 
-     
+
 
 output  reg EMPTY,
 
-            FULL;    
+FULL;    
 
 output reg [3:0] dataOut;
 
@@ -44,67 +44,67 @@ always @ (posedge Clk)
 
 begin
 
- if (EN==0);
+if (EN==0);
 
- else begin
+else begin
 
-    if (Rst==1) begin
+if (Rst==1) begin
 
-      SP       = 3'd4;
+SP       = 3'd4;
 
-      EMPTY    = SP[2];
+EMPTY    = SP[2];
 
-      dataOut  = 4'h0;
+dataOut  = 4'h0;
 
-      for (i=0;i<4;i=i+1) begin
+for (i=0;i<4;i=i+1) begin
 
-        stack_mem[i]= 0;
+stack_mem[i]= 0;
 
-      end
+end
 
-     end
+end
 
-  else if (Rst==0) begin
+else if (Rst==0) begin
 
-    FULL = SP? 0:1;
+FULL = SP? 0:1;
 
-    EMPTY  = SP[2];
+EMPTY  = SP[2];
 
-    dataOut = 4'hx;
+dataOut = 4'hx;
 
-    if (FULL == 1'b0 && RW == 1'b0) begin
+if (FULL == 1'b0 && RW == 1'b0) begin
 
-       SP            = SP-1'b1;
+SP            = SP-1'b1;
 
-       FULL          = SP? 0:1;
+FULL          = SP? 0:1;
 
-       EMPTY         = SP[2];
+EMPTY         = SP[2];
 
-       stack_mem[SP] = dataIn;
+stack_mem[SP] = dataIn;
 
-     end
+end
 
-   else if (EMPTY == 1'b0 && RW == 1'b1) begin
+else if (EMPTY == 1'b0 && RW == 1'b1) begin
 
-       dataOut  = stack_mem[SP];
+dataOut  = stack_mem[SP];
 
-       stack_mem[SP] = 0;
+stack_mem[SP] = 0;
 
-       SP  = SP+1;
+SP  = SP+1;
 
-       FULL  = SP? 0:1;
+FULL  = SP? 0:1;
 
-       EMPTY  = SP[2];
+EMPTY  = SP[2];
 
-    end
+end
 
-   else;
+else;
 
-  end
+end
 
-  else;
+else;
 
- end
+end
 
 end
 
