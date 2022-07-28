@@ -1,7 +1,6 @@
-# iiitb_lifo
-## Last-in-First-out Buffer
+# Last-in-First-out Buffer
 
-
+# A Glance at LIFO Buffer
 LIFO Buffer
 To clone the repository and download the netlist files for simulation, enter the following commands in your terminal.
 
