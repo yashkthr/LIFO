@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module LIFObuffer_tb;
+module iiitb_lifo_tb;
 
  // Inputs
 
@@ -24,7 +24,7 @@ module LIFObuffer_tb;
 
  // Instantiate the Unit Under Test (UUT)
 
- LIFObuffer uut (
+ iiitb_lifo uut (
 
                  .dataIn(dataIn), 
 
@@ -47,8 +47,8 @@ module LIFObuffer_tb;
  initial begin
 	//for creating vcd waveform file to view in gtkwave
 	
-	$dumpfile ("lifo_out.vcd"); //by default vcd
-	$dumpvars(0, LIFObuffer_tb);
+	 $dumpfile ("lifo_vcd.vcd"); //by default vcd
+	 $dumpvars(0, iiitb_lifo_tb);
 
   // Initialize Inputs
 
