@@ -1,7 +1,7 @@
-# Last-in-First-out Buffer
+# LIFO Buffer
 
-# A Glance at LIFO Buffer
-LIFO Buffer
+## A Glance at LIFO Buffer
+LIFO (Last in First out) Buffer
 
 # Application
 
