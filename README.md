@@ -1,5 +1,4 @@
-# LIFO Buffer
-
+# iiitb_lifo - LIFO Buffer
 ## Introduction
 LIFO (Last in First out) Buffer
 
