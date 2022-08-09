@@ -33,6 +33,7 @@ $ gtkwave iiitb_usr_out.vcd
 To simulate and run the verilog, enter the following command in your terminal.
 
 # Functional Characteristics
+[image](https://github.com/yashkthr/iiitb_lifo/blob/main/Images/iiitb_lifo_gtkwave.png)
 
 # Synthesis of verilog code
 ## Yosys
