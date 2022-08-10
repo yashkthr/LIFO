@@ -75,10 +75,20 @@ yosys> stat
 ```
 ![Screenshot2](https://user-images.githubusercontent.com/69398841/183974577-e8149549-9693-41df-a7d2-1a8f3ba964a5.png)
 
-# Contributors
-Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
-
 # Author
-Yash Kothari, M.Tech Student, IIIT Bangalore
+Yash Kothari, Post Graduate Student, IIIT Bangalore | Yash.Kothari@iiitb.ac.in
 
-E-Mail: [Yash.Kothari@iiitb.ac.in]()
+# Contributors
+Kunal Ghosh
+Yash Kothari
+
+# Acknowledgement
+Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+Dr.Murali, Co-ordinator (M.Tech), IIIT Bangalore
+Dr.Madhav Rao, ECE Department, IIIT Bangalore
+
+# Contact Information
+Yash Kothari, Post Graduate Student, IIIT Bangalore | Yash.Kothari@iiitb.ac.in
+Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd. | kunalghosh@gmail.com
+Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore | coordinator-mtech@iiitb.ac.in
+Dr.Madhav Rao, ECE Department, IIIT Bangalore | mr@iiitb.ac.in
