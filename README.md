@@ -1,4 +1,4 @@
-# iiitb_lifo - LIFO Buffer
+# LIFO Buffer - iiitb_lifo
 # Introduction
 LIFO (Last in First out) Buffer
 Many times in embedded programming, we need to use a data structure to organize our data, and a good example of this is the buffer. Oftentimes, we have a source of data, or a producer, and we also have a destination for data, a consumer. These two devices usually need to pass data in between one another. It is possible that these two devices often do not work at the same speed. Sometimes, one is much faster at producing or consuming the data. This means that we cannot just call the consumer from the producer to handle that data directly with a function call. We need an intermediate location to store data to act as a buffer for this interface. This buffer is usually implemented as a data structure in shared memory between these two processing interfaces.
@@ -23,7 +23,7 @@ The push and pull operations for a stack are described below:
         2. Increment the Stack Pointer
 
 # Refernce Circuit Diagram
-![Screenshot1](https://user-images.githubusercontent.com/69398841/183975785-7f31cbfc-4abf-4ba6-9321-2b90d5e91be0.png)
+![Screenshot1](https://user-images.githubusercontent.com/69398841/183976203-462cef60-0784-41bc-a0d9-5b296b5dfb0c.png)
 
 # Software used
 ## Icarus Verilog
