@@ -1,4 +1,4 @@
-# LIFO Buffer - iiitb_lifo
+# iiitb_lifo - LIFO Buffer
 # Introduction
 LIFO (Last in First out) Buffer
 Many times in embedded programming, we need to use a data structure to organize our data, and a good example of this is the buffer. Oftentimes, we have a source of data, or a producer, and we also have a destination for data, a consumer. These two devices usually need to pass data in between one another. It is possible that these two devices often do not work at the same speed. Sometimes, one is much faster at producing or consuming the data. This means that we cannot just call the consumer from the producer to handle that data directly with a function call. We need an intermediate location to store data to act as a buffer for this interface. This buffer is usually implemented as a data structure in shared memory between these two processing interfaces.
@@ -80,4 +80,5 @@ Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 
 # Author
 Yash Kothari, M.Tech Student, IIIT Bangalore
-E-Mail: Yash.Kothari@iiitb.ac.in
+
+E-Mail: [Yash.Kothari@iiitb.ac.in]
