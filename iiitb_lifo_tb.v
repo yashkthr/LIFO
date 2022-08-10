@@ -47,7 +47,7 @@ module iiitb_lifo_tb;
  initial begin
 	//for creating vcd waveform file to view in gtkwave
 	
-	 $dumpfile ("lifo_vcd.vcd"); //by default vcd
+	 $dumpfile ("iiitb_lifo_out.vcd"); //by default vcd
 	 $dumpvars(0, iiitb_lifo_tb);
 
   // Initialize Inputs
