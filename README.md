@@ -81,4 +81,4 @@ Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 # Author
 Yash Kothari, M.Tech Student, IIIT Bangalore
 
-E-Mail: [Yash.Kothari@iiitb.ac.in]
+E-Mail: [Yash.Kothari@iiitb.ac.in]()
