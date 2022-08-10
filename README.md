@@ -70,11 +70,8 @@ This is a framework for RTL synthesis tools. It currently has extensive Verilog-
 ```
 yosys
 ```
-```
-yosys> script yosys_run.sh```
-```yosys> show
-```
-
+```yosys> script yosys_run.sh```
+```yosys> show```
 ```yosys> stat```
 ![Screenshot2](https://user-images.githubusercontent.com/69398841/183974577-e8149549-9693-41df-a7d2-1a8f3ba964a5.png)
 
