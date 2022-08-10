@@ -67,9 +67,13 @@ $ gtkwave iiitb_lifo_out.vcd
 This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base. Yosys is free software licensed under the ISC license (a GPL compatible license that is similar in terms to the MIT license or the 2-clause BSD license).
 [Yosys GitHub](https://github.com/YosysHQ/yosys)
 
-```yosys```
-```yosys> script yosys_run.sh```
-```yosys> show```
+```
+yosys
+```
+```
+yosys> script yosys_run.sh```
+```yosys> show
+```
 
 ```yosys> stat```
 ![Screenshot2](https://user-images.githubusercontent.com/69398841/183974577-e8149549-9693-41df-a7d2-1a8f3ba964a5.png)
@@ -79,5 +83,4 @@ Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 
 # Author
 Yash Kothari, M.Tech Student, IIIT Bangalore
-### Contact Information
 E-Mail: Yash.Kothari@iiitb.ac.in
