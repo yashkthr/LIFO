@@ -23,7 +23,7 @@ The push and pull operations for a stack are described below:
         2. Increment the Stack Pointer
 
 # Refernce Circuit Diagram
-![Screenshot1](https://user-images.githubusercontent.com/69398841/183965939-fc94af38-25e4-4989-86d0-b586f46fe124.png)
+![Screenshot1](https://user-images.githubusercontent.com/69398841/183975785-7f31cbfc-4abf-4ba6-9321-2b90d5e91be0.png)
 
 # Software used
 ## Icarus Verilog
@@ -69,10 +69,10 @@ This is a framework for RTL synthesis tools. It currently has extensive Verilog-
 
 ```
 yosys
+yosys> script yosys_run.sh
+yosys> show
+yosys> stat
 ```
-```yosys> script yosys_run.sh```
-```yosys> show```
-```yosys> stat```
 ![Screenshot2](https://user-images.githubusercontent.com/69398841/183974577-e8149549-9693-41df-a7d2-1a8f3ba964a5.png)
 
 # Contributors
