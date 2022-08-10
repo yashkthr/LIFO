@@ -18,15 +18,15 @@ To clone the repository and download the netlist files for simulation, enter the
 ```
 $ sudo apt install git
 
-$ git clone https://github.com/rakshit-23/iiitb_usr
+$ git clone https://github.com/
 
-$ cd iiitb_usr/
+$ cd iiitb_lifo/
 
-$ iverilog iiitb_usr.v iiitb_usr_tb.v
+$ iverilog iiitb_lifo.v iiitb_lifo_tb.v
 
 $ ./a.out
 
-$ gtkwave iiitb_usr_out.vcd
+$ gtkwave iiitb_lifo_out.vcd
 ```
 
 ### Compile and Run
