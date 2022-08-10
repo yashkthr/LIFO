@@ -13,19 +13,17 @@ The push and pull operations for a stack are described below:
 
     Push Operation
     Steps:
-
-        Decrement Stack Pointer
-        Push/Write Data to the top of the stack
+        1. Decrement Stack Pointer
+        2. Push/Write Data to the top of the stack
 
 
     Pop Operation
     Steps:
+        1. Pop/Read Data from the top of the stack
+        2. Increment the Stack Pointer
 
-        Pop/Read Data from the top of the stack
-        Increment the Stack Pointer
-
-# Block Diagram
-![Screenshot from 2022-08-10 22-10-32](https://user-images.githubusercontent.com/69398841/183965939-fc94af38-25e4-4989-86d0-b586f46fe124.png)
+# Refernce Circuit Diagram
+![Screenshot1](https://user-images.githubusercontent.com/69398841/183965939-fc94af38-25e4-4989-86d0-b586f46fe124.png)
 
 # Software used
 ## Icarus Verilog
@@ -66,12 +64,15 @@ $ gtkwave iiitb_lifo_out.vcd
 
 # Synthesis of verilog code
 ## Yosys
-This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains.
-
-Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base.
-
-Yosys is free software licensed under the ISC license (a GPL compatible license that is similar in terms to the MIT license or the 2-clause BSD license).
+This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base. Yosys is free software licensed under the ISC license (a GPL compatible license that is similar in terms to the MIT license or the 2-clause BSD license).
 [Yosys GitHub](https://github.com/YosysHQ/yosys)
+
+```yosys```
+```yosys> script yosys_run.sh```
+```yosys> show```
+
+```yosys> stat```
+![Screenshot2](https://user-images.githubusercontent.com/69398841/183974577-e8149549-9693-41df-a7d2-1a8f3ba964a5.png)
 
 # Contributors
 Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
