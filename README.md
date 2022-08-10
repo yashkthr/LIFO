@@ -30,10 +30,12 @@ The push and pull operations for a stack are described below:
 # Software used
 ## Icarus Verilog
 Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format. For batch simulation, the compiler can generate an intermediate form called vvp assembly. This intermediate form is executed by the ``vvp'' command. For synthesis, the compiler generates netlists in the desired format. The compiler proper is intended to parse and elaborate design descriptions written to the IEEE standard IEEE Std 1364-2005.
-Icarus Verilog is available for Linux, FreeBSD, OpenSolaris, AIX, Microsoft Windows, and Mac OS X. Released under the GNU General Public License, Icarus Verilog is free software. 
+Icarus Verilog is available for Linux, FreeBSD, OpenSolaris, AIX, Microsoft Windows, and Mac OS X. Released under the GNU General Public License, Icarus Verilog is free software.
+
 
 ## GTKWave
 GTKWave is an analysis tool used to perform debugging on Verilog or VHDL simulation models. With the exception of interactive VCD viewing, it is not intended to be run interactively with simulation, but instead relies on a post-mortem approach through the use of dumpfiles. It is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing.
+[GTKWave Documentation](http://gtkwave.sourceforge.net/gtkwave.pdf)
 
 ### Installing procedure for Ubuntu
 ```
@@ -48,24 +50,33 @@ To clone the repository and download the netlist files for simulation, enter the
 $ sudo apt install git
 $ git clone https://github.com/yashkthr/iiitb_lifo.git
 $ cd iiitb_lifo/
-$ iverilog iiitb_lifo.v iiitb_lifo_tb.v
-
-$ ./a.out
-
-$ gtkwave iiitb_lifo_out.vcd
 ```
 
 ### Compile and Run
 To simulate and run the verilog, enter the following command in your terminal.
-
+```
+$ iverilog iiitb_lifo.v iiitb_lifo_tb.v
+$ ./a.out
+```
+```
+$ gtkwave iiitb_lifo_out.vcd
+```
 # Functional Characteristics
 ![iiitb_lifo_gtkwave](https://user-images.githubusercontent.com/69398841/183555415-b5bf45a9-1a3c-4b97-ad85-8bbc00d7a289.png)
 
 # Synthesis of verilog code
 ## Yosys
+This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains.
+
+Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base.
+
+Yosys is free software licensed under the ISC license (a GPL compatible license that is similar in terms to the MIT license or the 2-clause BSD license).
+[Yosys GitHub](https://github.com/YosysHQ/yosys)
 
 # Contributors
+Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 
 # Author
-
-# Contact Information
+Yash Kothari, M.Tech Student, IIIT Bangalore
+### Contact Information
+E-Mail: Yash.Kothari@iiitb.ac.in
