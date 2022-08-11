@@ -89,7 +89,7 @@ yosys> stat
 - Dr.Madhav Rao, ECE Department, IIIT Bangalore
 
 ## Contact Information
-- Yash Kothari, Post Graduate Student, IIIT Bangalore | Yash.Kothari@iiitb.ac.in
-- Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd. | kunalghosh@gmail.com
-- Dr.Murali, M.Tech Programme Coordinator, IIIT Bangalore | coordinator-mtech@iiitb.ac.in
-- Dr.Madhav Rao, ECE Department, IIIT Bangalore | mr@iiitb.ac.in
+- Yash Kothari | Yash.Kothari@iiitb.ac.in
+- Kunal Ghosh | kunalghosh@gmail.com
+- Dr.Murali | coordinator-mtech@iiitb.ac.in
+- Dr.Madhav Rao | mr@iiitb.ac.in
