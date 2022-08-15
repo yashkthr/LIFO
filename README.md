@@ -75,6 +75,7 @@ yosys> show
 yosys> stat
 yosys> exit
 ```
+The following commands are executed:
 ```
 read_verilog iiitb_lifo.v
 synth -top iiitb_lifo
