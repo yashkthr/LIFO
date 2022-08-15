@@ -74,7 +74,9 @@ yosys> script yosys_run.sh
 yosys> show
 yosys> stat
 ```
-![Screenshot2](https://user-images.githubusercontent.com/69398841/183974577-e8149549-9693-41df-a7d2-1a8f3ba964a5.png)
+![Screenshot from 2022-08-15 16-39-37](https://user-images.githubusercontent.com/69398841/184625093-1dd5055e-79f8-4915-a850-84817e9920b7.png)
+
+
 
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
