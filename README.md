@@ -1,5 +1,4 @@
-![IIIT_Bangalore_Logo svg](https://user-images.githubusercontent.com/69398841/184628727-9e38fd0a-4fbd-4362-bb4c-88a7d1f77785.png)
-<img src="IIIT_Bangalore_Logo svg" alt="IIIT_Bangalore_Logo svg" width="200"/>
+![IIIT_Bangalore_Logo svg](https://user-images.githubusercontent.com/69398841/184628727-9e38fd0a-4fbd-4362-bb4c-88a7d1f77785.png) =100x100
 # iiitb_lifo - LIFO Buffer
 
 ## Introduction
