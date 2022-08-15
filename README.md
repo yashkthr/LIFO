@@ -51,7 +51,8 @@ $ git clone https://github.com/yashkthr/iiitb_lifo.git
 $ cd iiitb_lifo/
 ```
 
-### Functional Characteristics
+## RTL Simulation
+Verification of the design is done at two points. First, it is applied to the initial verilog design. This process is called the Register Transfer Level (RTL) simulation. This verifies only the logic without delays. The input to this verification process is a test bench written in verilog.
 To simulate and run the verilog, enter the following command in your terminal.
 ```
 $ iverilog iiitb_lifo.v iiitb_lifo_tb.v
@@ -88,7 +89,8 @@ flatten
 write_verilog -noattr iiitb_lifo_net.v
 ```
 ![Screenshot from 2022-08-15 16-39-37](https://user-images.githubusercontent.com/69398841/184625093-1dd5055e-79f8-4915-a850-84817e9920b7.png)
-
+## Gate Level Simulation GLS
+When we write the RTL code, we test it by giving it some stimulus through the testbench and check it for the desired specifications. Similarly, we run the netlist as the design under test (dut) with the same testbench. Gate level simulation is done to verify the logical correctness of the design after synthesis. Also, it ensures the timing of the design.
 ```
 $ iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 verilog_files/primitives.v verilog_files.v/sky130_fd_sc_hd.v iiitb_lifo_net.v iiitb_lifo_tb.v
 $ ./a.out
