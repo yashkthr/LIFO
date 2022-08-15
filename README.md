@@ -68,6 +68,7 @@ $ gtkwave iiitb_lifo_out.vcd
 This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base. Yosys is free software licensed under the ISC license (a GPL compatible license that is similar in terms to the MIT license or the 2-clause BSD license).
 [Yosys GitHub](https://github.com/YosysHQ/yosys)
 
+For the synthesis of verilog code, run following command:
 ```
 yosys
 yosys> script yosys_run.sh
