@@ -90,10 +90,6 @@ $ gtkwave iiitb_lifo_out.vcd
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
 
-## Contributors
-- Kunal Ghosh
-- Yash Kothari
-
 ## Acknowledgement
 - Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 - Dr. Murali, Co-ordinator (M.Tech), IIIT Bangalore
