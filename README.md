@@ -1,4 +1,4 @@
-![IIIT_Bangalore_Logo svg](https://user-images.githubusercontent.com/69398841/184628727-9e38fd0a-4fbd-4362-bb4c-88a7d1f77785.png){:height="36px" width="36px"}
+![Screenshot from 2022-08-15 17-17-44](https://user-images.githubusercontent.com/69398841/184629923-4325bf41-9446-4510-a93a-1fa72bdca850.png)
 # iiitb_lifo - LIFO Buffer
 
 ## Introduction
