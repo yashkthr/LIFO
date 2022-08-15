@@ -51,16 +51,16 @@ $ git clone https://github.com/yashkthr/iiitb_lifo.git
 $ cd iiitb_lifo/
 ```
 
-### Compile and Run
+### Functional Characteristics
 To simulate and run the verilog, enter the following command in your terminal.
 ```
 $ iverilog iiitb_lifo.v iiitb_lifo_tb.v
 $ ./a.out
 ```
+For pre-synthesis waveform:
 ```
 $ gtkwave iiitb_lifo_out.vcd
 ```
-## Functional Characteristics
 ![iiitb_lifo_gtkwave](https://user-images.githubusercontent.com/69398841/183555415-b5bf45a9-1a3c-4b97-ad85-8bbc00d7a289.png)
 
 ## Synthesis of verilog code
