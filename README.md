@@ -73,10 +73,19 @@ yosys
 yosys> script yosys_run.sh
 yosys> show
 yosys> stat
+yosys> exit
 ```
 ![Screenshot from 2022-08-15 16-39-37](https://user-images.githubusercontent.com/69398841/184625093-1dd5055e-79f8-4915-a850-84817e9920b7.png)
 
-
+```
+$ iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 verilog_files/primitives.v verilog_files.v/sky130_fd_sc_hd.v iiitb_lifo_net.v iiitb_lifo_tb.v
+$ ./a.out
+```
+For post-synthesis waveform:
+```
+$ gtkwave iiitb_lifo_out.vcd
+```
+![Screenshot from 2022-08-15 16-29-32](https://user-images.githubusercontent.com/69398841/184625753-ffee4d0e-0704-4bcd-9ad2-2e96696913dc.png)
 
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
