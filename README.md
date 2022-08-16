@@ -45,7 +45,7 @@ $ sudo apt-get install gtkwave
 For more information: click [here](https://iverilog.fandom.com/wiki/Installation_Guide#Ubuntu_Linux)
 
 ## Functional Simulation
-To clone the repository and download the netlist files for simulation, enter the following commands in your terminal:
+To clone the repository and download the files for simulation, enter the following commands in your terminal:
 ```
 $ sudo apt install git
 $ git clone https://github.com/yashkthr/iiitb_lifo.git
