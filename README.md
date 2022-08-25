@@ -102,6 +102,68 @@ $ gtkwave iiitb_lifo_out.vcd
 ```
 ![Screenshot from 2022-08-15 16-29-32](https://user-images.githubusercontent.com/69398841/184625753-ffee4d0e-0704-4bcd-9ad2-2e96696913dc.png)
 
+# 6. Layout
+
+## Openlane
+OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
+
+more at https://github.com/The-OpenROAD-Project/OpenLane
+## Installation instructions 
+```
+$   apt install -y build-essential python3 python3-venv python3-pip
+```
+Docker installation process: https://docs.docker.com/engine/install/ubuntu/
+
+goto home directory->
+```
+$   git clone https://github.com/The-OpenROAD-Project/OpenLane.git
+$   cd OpenLane/
+$   sudo make
+```
+To test the open lane
+```
+$ sudo make test
+```
+It takes approximate time of 5min to complete. After 43 steps, if it ended with saying **Basic test passed** then open lane installed succesfully.
+
+## Magic
+Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology. However, it is the well thought-out core algorithms which lend to magic the greatest part of its popularity. Magic is widely cited as being the easiest tool to use for circuit layout, even for people who ultimately rely on commercial tools for their product design flow.
+
+More about magic at http://opencircuitdesign.com/magic/index.html
+
+Run following commands one by one to fulfill the system requirement.
+
+```
+$   sudo apt-get install m4
+$   sudo apt-get install tcsh
+$   sudo apt-get install csh
+$   sudo apt-get install libx11-dev
+$   sudo apt-get install tcl-dev tk-dev
+$   sudo apt-get install libcairo2-dev
+$   sudo apt-get install mesa-common-dev libglu1-mesa-dev
+$   sudo apt-get install libncurses-dev
+```
+**To install magic**
+goto home directory
+
+```
+$   git clone https://github.com/RTimothyEdwards/magic
+$   cd magic/
+$   ./configure
+$   sudo make
+$   sudo make install
+```
+type **magic** terminal to check whether it installed succesfully or not. type **exit** to exit magic.
+
+## Generating the Layout
+ 
+Download the config.json file and place it in the `iiitb_lifo` folder.To generate the layout, type the following commands
+```
+cd OpenLane
+make mount
+./flow.tcl -design iiitb_lifo
+```
+
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
 
