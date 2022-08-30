@@ -186,9 +186,24 @@ Edit the config.json file by adding following lines
 ```
 ![image](https://user-images.githubusercontent.com/69398841/187485012-771f433a-c0bd-4b87-8e8b-79137c8d997d.png)
 ![image](https://user-images.githubusercontent.com/69398841/187484993-9fa35671-8568-4d10-991d-6b3441db3b02.png)
+
+### Floorplan
+Physical design is process of transforming netlist into layout which is manufacture-able [GDS]. Physical design process is often referred as PnR (Place and Route) / APR (Automatic Place & Route). Main steps in physical design are placement of all logical cells, clock tree synthesis & routing. During this process of physical design timing, power, design & technology constraints have to be met. Further design might require being optimized w.r.t area, power and performance.
+![Screenshot from 2022-08-30 17-12-56](https://user-images.githubusercontent.com/69398841/187497648-a075375a-edbc-4b2f-a16b-e968ed93a20f.png)
+
+### Placement
+In this stage, all the standard cells are placed in the design (size, shape & macro-placement is done in floor-plan). Placement will be driven by different criteria like timing driven, congestion driven, power optimization etc. Timing & Routing convergence depends a lot on quality of placement.
+![image](https://user-images.githubusercontent.com/69398841/187497923-ada7393a-9f38-44f5-b92f-01def62a9d23.png)
+
+### Opening Floorplan in MAGIC
 ![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
 ![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
-power report
+
+### Clcok Tree Synthesis (CTS)
+Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR decides timing convergence & power. In most of the ICs clock consumes 30-40 % of total power. So efficient clock architecture, clock gating & clock tree implementation helps to reduce power.
+![image](https://user-images.githubusercontent.com/69398841/187498970-eee05005-19ef-4e59-b14c-63a64fa5516f.png)
+
+### power report
 ![image](https://user-images.githubusercontent.com/69398841/187496523-7c23d9af-3948-46ee-829b-38d3ee996728.png)
 
 ## Author
