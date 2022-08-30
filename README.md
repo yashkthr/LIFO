@@ -102,7 +102,7 @@ $ gtkwave iiitb_lifo_out.vcd
 ```
 ![Screenshot from 2022-08-15 16-29-32](https://user-images.githubusercontent.com/69398841/184625753-ffee4d0e-0704-4bcd-9ad2-2e96696913dc.png)
 
-## # Layout
+## # Physical Design
 ## Openlane
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
 
@@ -175,9 +175,9 @@ Edit the config.json file by adding following lines
 "LIB_SYNTH" : "dir::src/sky130_fd_sc_hd__typical.lib",
 "LIB_FASTEST" : "dir::src/sky130_fd_sc_hd__fast.lib",
 "LIB_SLOWEST" : "dir::src/sky130_fd_sc_hd__slow.lib",
-"LIB_TYPICAL":"dir::src/sky130_fd_sc_hd__typical.lib",
-"TEST_EXTERNAL_GLOB":"dir::../sd_fsm/src/*",
-"SYNTH_DRIVING_CELL":"sky130_vsdinv",  
+"LIB_TYPICAL" : "dir::src/sky130_fd_sc_hd__typical.lib",
+"TEST_EXTERNAL_GLOB" : "dir::../sd_fsm/src/*",
+"SYNTH_DRIVING_CELL" : "sky130_vsdinv",  
 ```
 ![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
 ![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
