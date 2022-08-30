@@ -228,7 +228,7 @@ Power and Design_Area Report
 ![image](https://user-images.githubusercontent.com/69398841/187496523-7c23d9af-3948-46ee-829b-38d3ee996728.png)
 
 TNS, WNS Report, Worst_Slack
-![image](https://user-images.githubusercontent.com/69398841/187504254-ba510bcf-8ed6-4dbf-9f5a-118424d31a07.png)
+![image](https://user-images.githubusercontent.com/69398841/187504789-091fcadc-59b0-40ee-ab96-4bd51d0cce12.png)
 
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
