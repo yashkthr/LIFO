@@ -168,7 +168,7 @@ To see the layout we use a tool called magic which we installed earlier.Type the
 ```
 $   magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_lifo.def &
 ```
-![image](https://user-images.githubusercontent.com/69398841/187162700-091a58b0-b861-4306-8795-2df29ce18986.png)
+![image](https://user-images.githubusercontent.com/69398841/187407945-c508802f-5801-45fa-880f-13ad85ef97c8.png)
 
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
