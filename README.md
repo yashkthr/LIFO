@@ -172,7 +172,8 @@ To see the layout we use a tool called magic which we installed earlier.Type the
 ```
 $   magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_lifo.def &
 ```
-![image](https://user-images.githubusercontent.com/69398841/187515992-c2392515-9c48-4fe6-998f-ce9875f91f99.png)
+
+![Screenshot from 2022-08-30 22-51-57](https://user-images.githubusercontent.com/69398841/187517359-0024f87f-6191-4071-9f71-bfa8c155ef37.png)
 
 ## For including sky130_vsdinv cell in the layout
 ![image](https://user-images.githubusercontent.com/69398841/187509148-a4abd2ca-ac7d-4c41-b465-7377aafae049.png)
