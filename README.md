@@ -171,6 +171,7 @@ $   magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.te
 ![image](https://user-images.githubusercontent.com/69398841/187409663-c712ecd0-413d-4554-aaaf-aa5a2a6e6252.png)
 
 ## sky130_vsdinv cell included in the layout
+![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
 ![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
 
 ## Author
