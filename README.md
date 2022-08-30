@@ -166,7 +166,7 @@ make mount
 To see the layout we use a tool called magic which we installed earlier.Type the following command in the terminal opened in the path to your design/runs/latest run folder/final/def/
  
 ```
-$   magic -T /home/parallels/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_rv32i.def &
+$   magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_lifo.def &
 ```
 ![image](https://user-images.githubusercontent.com/69398841/187162700-091a58b0-b861-4306-8795-2df29ce18986.png)
 
