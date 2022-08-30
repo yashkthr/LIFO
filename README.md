@@ -224,6 +224,7 @@ Routing is performed in two stages:
 2. Detailed route - Implemented using TritonRoute. It uses the routing guides generated in fast route to find the best route and makes connections.
 
 ![image](https://user-images.githubusercontent.com/69398841/187499822-36ccf5a4-68c3-4df3-ac46-6d2fc6d7b041.png)
+![image](https://user-images.githubusercontent.com/69398841/187516195-17672d60-62dd-4cfc-9369-e6b065b33261.png)
 
 ### Reports
 Power and Design_Area Report
