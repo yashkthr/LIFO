@@ -102,9 +102,8 @@ $ gtkwave iiitb_lifo_out.vcd
 ```
 ![Screenshot from 2022-08-15 16-29-32](https://user-images.githubusercontent.com/69398841/184625753-ffee4d0e-0704-4bcd-9ad2-2e96696913dc.png)
 
-# 6. Layout
-
-## Openlane
+## Layout
+### Openlane
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
 
 more at https://github.com/The-OpenROAD-Project/OpenLane
