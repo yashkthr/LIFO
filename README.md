@@ -188,6 +188,8 @@ Edit the config.json file by adding following lines
 ![image](https://user-images.githubusercontent.com/69398841/187484993-9fa35671-8568-4d10-991d-6b3441db3b02.png)
 ![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
 ![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
+power report
+![image](https://user-images.githubusercontent.com/69398841/187496523-7c23d9af-3948-46ee-829b-38d3ee996728.png)
 
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
