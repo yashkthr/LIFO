@@ -201,9 +201,31 @@ In this stage, all the standard cells are placed in the design (size, shape & ma
 
 ### Clcok Tree Synthesis (CTS)
 Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR decides timing convergence & power. In most of the ICs clock consumes 30-40 % of total power. So efficient clock architecture, clock gating & clock tree implementation helps to reduce power.
+
 ![image](https://user-images.githubusercontent.com/69398841/187498970-eee05005-19ef-4e59-b14c-63a64fa5516f.png)
 
-### power report
+### Routing
+Routing is the stage after Clock Tree Synthesis and optimization where-
+
+    Exact paths for the interconnection of standard cells and macros and I/O pins are determined.
+    Electrical connections using metals and vias are created in the layout, defined by the logical connections present in the netlist.
+
+After CTS, we have information of all the placed cells, blockages, clock tree buffers/inverters and I/O pins. The tool relies on this information to electrically complete all connections defined in the netlist such that-
+
+    There are minimal DRC violations while routing.
+    The design is 100% routed with minimal LVS violations.
+    There are minimal SI related violations.
+    There must be no or minimal congestion hot spots.
+    The Timing DRCs are met.
+    The Timing QoR is good.
+
+Routing is performed in two stages:
+
+    Fast route - Implemented using FastROAD. It generates routing guides.
+    Detailed route - Implemented using TritonRoute. It uses the routing guides generated in fast route to find the best route and makes connections.
+![image](https://user-images.githubusercontent.com/69398841/187499822-36ccf5a4-68c3-4df3-ac46-6d2fc6d7b041.png)
+
+### Power Report
 ![image](https://user-images.githubusercontent.com/69398841/187496523-7c23d9af-3948-46ee-829b-38d3ee996728.png)
 
 ## Author
