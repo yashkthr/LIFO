@@ -44,7 +44,7 @@ $ sudo apt-get install gtkwave
 ```
 For more information: click [here](https://iverilog.fandom.com/wiki/Installation_Guide#Ubuntu_Linux)
 
-## Functional Simulation
+## # Functional Simulation
 To clone the repository and download the files for simulation, enter the following commands in your terminal:
 ```
 $ sudo apt install git
@@ -65,7 +65,7 @@ $ gtkwave iiitb_lifo_out.vcd
 ```
 ![iiitb_lifo_gtkwave](https://user-images.githubusercontent.com/69398841/183555415-b5bf45a9-1a3c-4b97-ad85-8bbc00d7a289.png)
 
-## Synthesis of verilog code
+## # Synthesis of verilog code
 ### Yosys
 This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base. Yosys is free software licensed under the ISC license (a GPL compatible license that is similar in terms to the MIT license or the 2-clause BSD license).
 [Yosys GitHub](https://github.com/YosysHQ/yosys)
@@ -90,7 +90,7 @@ flatten
 write_verilog -noattr iiitb_lifo_net.v
 ```
 ![Screenshot from 2022-08-15 16-39-37](https://user-images.githubusercontent.com/69398841/184625093-1dd5055e-79f8-4915-a850-84817e9920b7.png)
-## Gate Level Simulation GLS
+## # Gate Level Simulation GLS
 When we write the RTL code, we test it by giving it some stimulus through the testbench and check it for the desired specifications. Similarly, we run the netlist as the design under test (dut) with the same testbench. Gate level simulation is done to verify the logical correctness of the design after synthesis. Also, it ensures the timing of the design.
 ```
 $ iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 verilog_files/primitives.v verilog_files.v/sky130_fd_sc_hd.v iiitb_lifo_net.v iiitb_lifo_tb.v
@@ -102,8 +102,8 @@ $ gtkwave iiitb_lifo_out.vcd
 ```
 ![Screenshot from 2022-08-15 16-29-32](https://user-images.githubusercontent.com/69398841/184625753-ffee4d0e-0704-4bcd-9ad2-2e96696913dc.png)
 
-## Layout
-### Openlane
+## # Layout
+## Openlane
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
 
 more at https://github.com/The-OpenROAD-Project/OpenLane
