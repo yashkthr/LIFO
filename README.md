@@ -206,27 +206,29 @@ Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR d
 
 ### Routing
 Routing is the stage after Clock Tree Synthesis and optimization where-
-
-    Exact paths for the interconnection of standard cells and macros and I/O pins are determined.
-    Electrical connections using metals and vias are created in the layout, defined by the logical connections present in the netlist.
+1. Exact paths for the interconnection of standard cells and macros and I/O pins are determined.
+2. Electrical connections using metals and vias are created in the layout, defined by the logical connections present in the netlist.
 
 After CTS, we have information of all the placed cells, blockages, clock tree buffers/inverters and I/O pins. The tool relies on this information to electrically complete all connections defined in the netlist such that-
-
-    There are minimal DRC violations while routing.
-    The design is 100% routed with minimal LVS violations.
-    There are minimal SI related violations.
-    There must be no or minimal congestion hot spots.
-    The Timing DRCs are met.
-    The Timing QoR is good.
+1. There are minimal DRC violations while routing.
+2. The design is 100% routed with minimal LVS violations.
+3. There are minimal SI related violations.
+4. There must be no or minimal congestion hot spots.
+5. The Timing DRCs are met.
+6. The Timing QoR is good.
 
 Routing is performed in two stages:
+1. Fast route - Implemented using FastROAD. It generates routing guides.
+2. Detailed route - Implemented using TritonRoute. It uses the routing guides generated in fast route to find the best route and makes connections.
 
-    Fast route - Implemented using FastROAD. It generates routing guides.
-    Detailed route - Implemented using TritonRoute. It uses the routing guides generated in fast route to find the best route and makes connections.
 ![image](https://user-images.githubusercontent.com/69398841/187499822-36ccf5a4-68c3-4df3-ac46-6d2fc6d7b041.png)
 
-### Power Report
+### Reports
+Power and Design_Area Report
 ![image](https://user-images.githubusercontent.com/69398841/187496523-7c23d9af-3948-46ee-829b-38d3ee996728.png)
+
+TNS, WNS Report, Worst_Slack
+![image](https://user-images.githubusercontent.com/69398841/187504254-ba510bcf-8ed6-4dbf-9f5a-118424d31a07.png)
 
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
