@@ -172,14 +172,14 @@ $   magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.te
 
 ## sky130_vsdinv cell included in the layout
 Edit the config.json file by adding following lines
-'''
+```
 "LIB_SYNTH" : "dir::src/sky130_fd_sc_hd__typical.lib",
 "LIB_FASTEST" : "dir::src/sky130_fd_sc_hd__fast.lib",
 "LIB_SLOWEST" : "dir::src/sky130_fd_sc_hd__slow.lib",
 "LIB_TYPICAL":"dir::src/sky130_fd_sc_hd__typical.lib",
 "TEST_EXTERNAL_GLOB":"dir::../sd_fsm/src/*",
 "SYNTH_DRIVING_CELL":"sky130_vsdinv",  
-'''
+```
 ![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
 ![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
 
