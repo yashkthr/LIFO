@@ -2,7 +2,7 @@
 # iiitb_lifo - LIFO Buffer
 
 ## Contents
-- [Introduction](#1. Introduction)
+- [Introduction](#Introduction)
 
 ## Introduction
 LIFO (Last in First out) Buffer
