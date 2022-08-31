@@ -175,7 +175,7 @@ $   magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.te
 
 ![Screenshot from 2022-08-30 15-34-16](https://user-images.githubusercontent.com/69398841/187517514-054d4280-2ccb-44e0-bd9f-f0c04f618308.png)
 
-## For including sky130_vsdinv cell in the layout
+# sky130_vsdinv cell
 ![image](https://user-images.githubusercontent.com/69398841/187509148-a4abd2ca-ac7d-4c41-b465-7377aafae049.png)
 
 Edit the config.json file by adding following lines
