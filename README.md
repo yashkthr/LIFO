@@ -202,7 +202,7 @@ In this stage, all the standard cells are placed in the design (size, shape & ma
 ![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
 ![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
 
-### Clcok Tree Synthesis (CTS)
+### Clock Tree Synthesis (CTS)
 Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR decides timing convergence & power. In most of the ICs clock consumes 30-40 % of total power. So efficient clock architecture, clock gating & clock tree implementation helps to reduce power.
 
 ![image](https://user-images.githubusercontent.com/69398841/187498970-eee05005-19ef-4e59-b14c-63a64fa5516f.png)
