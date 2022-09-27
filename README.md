@@ -188,6 +188,11 @@ Edit the config.json file by adding following lines
 "SYNTH_DRIVING_CELL" : "sky130_vsdinv",
 ```
 Typing the code step-by-step given in the following pictures:
+![image](https://user-images.githubusercontent.com/69398841/192584573-2c998ef0-5938-42e2-9815-603c6d92608f.png)
+![image](https://user-images.githubusercontent.com/69398841/192584645-0b456b2f-32de-4c56-b77a-7a607d3517fa.png)
+![image](https://user-images.githubusercontent.com/69398841/192584694-974760f9-2da9-4aa0-929f-9a0665a979e9.png)
+
+
 ![image](https://user-images.githubusercontent.com/69398841/187485012-771f433a-c0bd-4b87-8e8b-79137c8d997d.png)
 ![image](https://user-images.githubusercontent.com/69398841/187484993-9fa35671-8568-4d10-991d-6b3441db3b02.png)
 ![image](https://user-images.githubusercontent.com/69398841/192583513-463aadc2-c6cd-456a-b297-c476f922bc70.png)
