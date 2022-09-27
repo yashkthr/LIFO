@@ -236,7 +236,7 @@ Area Report:
 Post-Synthesis Stats:
 ![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
 
-Power Report:
+Power Report (Internal, Switching, Leakage and Total Power):
 ![image](https://user-images.githubusercontent.com/69398841/187496523-7c23d9af-3948-46ee-829b-38d3ee996728.png)
 
 TNS, WNS Report, Worst_Slack:
