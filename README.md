@@ -170,7 +170,7 @@ make mount
 To see the layout we use a tool called magic which we installed earlier.Type the following command in the terminal opened in the path to your design/runs/latest run folder/final/def/
  
 ```
-magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_lifo.def &
+magic -T /home/yash/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.max.lef def read iiitb_lifo.def &
 ```
 
 ![Screenshot from 2022-08-30 15-34-16](https://user-images.githubusercontent.com/69398841/187517514-054d4280-2ccb-44e0-bd9f-f0c04f618308.png)
