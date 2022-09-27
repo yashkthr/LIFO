@@ -3,8 +3,7 @@
   "VERILOG_FILES": "dir::src/iiitb_lifo.v",
   "CLOCK_PORT": "clk",
   "CLOCK_NET": "clk",
-  "FP_SIZING": "absolute",
-  "DIE_AREA": "0 0 150 150",
+  "FP_SIZING" : "relative",
   "pdk::sky130*": {
     "FP_CORE_UTIL": 35,
     "CLOCK_PERIOD": 24,
@@ -13,3 +12,4 @@
     }
   }
 }
+
