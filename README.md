@@ -209,9 +209,6 @@ Routing is the stage after Clock Tree Synthesis and optimization where-
 1. Exact paths for the interconnection of standard cells and macros and I/O pins are determined.
 2. Electrical connections using metals and vias are created in the layout, defined by the logical connections present in the netlist.
 
-### Opening Floorplan in MAGIC
-![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
-![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
 
 After CTS, we have information of all the placed cells, blockages, clock tree buffers/inverters and I/O pins. The tool relies on this information to electrically complete all connections defined in the netlist such that-
 1. There are minimal DRC violations while routing.
@@ -225,7 +222,11 @@ Routing is performed in two stages:
 1. Fast route - Implemented using FastROAD. It generates routing guides.
 2. Detailed route - Implemented using TritonRoute. It uses the routing guides generated in fast route to find the best route and makes connections.
 
+![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
+
+### Opening Floorplan in MAGIC
 ![image](https://user-images.githubusercontent.com/69398841/187499822-36ccf5a4-68c3-4df3-ac46-6d2fc6d7b041.png)
+![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
 ![image](https://user-images.githubusercontent.com/69398841/187516195-17672d60-62dd-4cfc-9369-e6b065b33261.png)
 
 ### Reports
