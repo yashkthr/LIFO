@@ -197,12 +197,12 @@ Physical design is process of transforming netlist into layout which is manufact
 
 ### Placement
 In this stage, all the standard cells are placed in the design (size, shape & macro-placement is done in floor-plan). Placement will be driven by different criteria like timing driven, congestion driven, power optimization etc. Timing & Routing convergence depends a lot on quality of placement.
-![image](https://user-images.githubusercontent.com/69398841/187497923-ada7393a-9f38-44f5-b92f-01def62a9d23.png)
+![image](https://user-images.githubusercontent.com/69398841/192599088-6174b379-a963-449e-84f3-62d6285fffd4.png)
 
 ### Clock Tree Synthesis (CTS)
 Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR decides timing convergence & power. In most of the ICs clock consumes 30-40 % of total power. So efficient clock architecture, clock gating & clock tree implementation helps to reduce power.
 
-![image](https://user-images.githubusercontent.com/69398841/187498970-eee05005-19ef-4e59-b14c-63a64fa5516f.png)
+![image](https://user-images.githubusercontent.com/69398841/192599435-0ee7e53d-9608-470f-ad47-4b8a8955e309.png)
 
 ### Routing
 Routing is the stage after Clock Tree Synthesis and optimization where-
@@ -222,7 +222,7 @@ Routing is performed in two stages:
 1. Fast route - Implemented using FastROAD. It generates routing guides.
 2. Detailed route - Implemented using TritonRoute. It uses the routing guides generated in fast route to find the best route and makes connections.
 
-![image](https://user-images.githubusercontent.com/69398841/187499822-36ccf5a4-68c3-4df3-ac46-6d2fc6d7b041.png)
+![image](https://user-images.githubusercontent.com/69398841/192599226-280aa60e-bf43-4e3b-b560-f7a86ec448c5.png)
 
 
 ### Opening Floorplan in MAGIC
