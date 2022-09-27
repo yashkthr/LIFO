@@ -187,8 +187,10 @@ Edit the config.json file by adding following lines
 "TEST_EXTERNAL_GLOB" : "dir::../sd_fsm/src/*",
 "SYNTH_DRIVING_CELL" : "sky130_vsdinv",
 ```
+Typing the code step-by-step given in the following pictures:
 ![image](https://user-images.githubusercontent.com/69398841/187485012-771f433a-c0bd-4b87-8e8b-79137c8d997d.png)
 ![image](https://user-images.githubusercontent.com/69398841/187484993-9fa35671-8568-4d10-991d-6b3441db3b02.png)
+![image](https://user-images.githubusercontent.com/69398841/192583513-463aadc2-c6cd-456a-b297-c476f922bc70.png)
 
 ### Floorplan
 Physical design is process of transforming netlist into layout which is manufacture-able [GDS]. Physical design process is often referred as PnR (Place and Route) / APR (Automatic Place & Route). Main steps in physical design are placement of all logical cells, clock tree synthesis & routing. During this process of physical design timing, power, design & technology constraints have to be met. Further design might require being optimized w.r.t area, power and performance.
