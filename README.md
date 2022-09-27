@@ -188,6 +188,10 @@ Edit the config.json file by adding following lines
 "SYNTH_DRIVING_CELL" : "sky130_vsdinv",
 ```
 Typing the code step-by-step given in the following pictures:
+![image](https://user-images.githubusercontent.com/69398841/192586874-4c90536e-71bd-4b24-acd8-985eb4185e3e.png)
+![image](https://user-images.githubusercontent.com/69398841/192587115-a8583197-565c-47b3-a252-f2ba803b9888.png)
+
+
 ![image](https://user-images.githubusercontent.com/69398841/192584573-2c998ef0-5938-42e2-9815-603c6d92608f.png)
 ![image](https://user-images.githubusercontent.com/69398841/192584645-0b456b2f-32de-4c56-b77a-7a607d3517fa.png)
 ![image](https://user-images.githubusercontent.com/69398841/192584694-974760f9-2da9-4aa0-929f-9a0665a979e9.png)
@@ -200,10 +204,6 @@ Physical design is process of transforming netlist into layout which is manufact
 In this stage, all the standard cells are placed in the design (size, shape & macro-placement is done in floor-plan). Placement will be driven by different criteria like timing driven, congestion driven, power optimization etc. Timing & Routing convergence depends a lot on quality of placement.
 ![image](https://user-images.githubusercontent.com/69398841/187497923-ada7393a-9f38-44f5-b92f-01def62a9d23.png)
 
-### Opening Floorplan in MAGIC
-![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
-![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
-
 ### Clock Tree Synthesis (CTS)
 Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR decides timing convergence & power. In most of the ICs clock consumes 30-40 % of total power. So efficient clock architecture, clock gating & clock tree implementation helps to reduce power.
 
@@ -213,6 +213,10 @@ Clock Tree Synthesis (CTS) is one of the most important stages in PnR. CTS QoR d
 Routing is the stage after Clock Tree Synthesis and optimization where-
 1. Exact paths for the interconnection of standard cells and macros and I/O pins are determined.
 2. Electrical connections using metals and vias are created in the layout, defined by the logical connections present in the netlist.
+
+### Opening Floorplan in MAGIC
+![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
+![image](https://user-images.githubusercontent.com/69398841/187428181-73cd7fb9-56d6-496c-8eec-457df3f3f6f6.png)
 
 After CTS, we have information of all the placed cells, blockages, clock tree buffers/inverters and I/O pins. The tool relies on this information to electrically complete all connections defined in the netlist such that-
 1. There are minimal DRC violations while routing.
