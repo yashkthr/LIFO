@@ -234,15 +234,15 @@ Area Report:
 ![image](https://user-images.githubusercontent.com/69398841/192597344-745bb26b-d951-427f-b96b-b83e376a5fad.png)
 
 Post-Synthesis Stats:
-![image](https://user-images.githubusercontent.com/69398841/192704809-c10f6561-9bae-44de-8bf6-7647b8738064.png)
+![image](https://user-images.githubusercontent.com/69398841/192705809-568605cd-6841-40b3-a7b8-936616cfa537.png)
 
 ### Flip-Flop to Standard Cell Ratio = 25/127 = 0.19685
 
 Power Report (Internal, Switching, Leakage and Total Power):
-![image](https://user-images.githubusercontent.com/69398841/192704932-f4888384-0acf-4626-a0a0-ab59bfebb51a.png)
+![image](https://user-images.githubusercontent.com/69398841/192705604-b560b6db-bf25-4f6c-8b49-28454714194d.png)
 
 TNS, WNS Report, Worst_Slack:
-![image](https://user-images.githubusercontent.com/69398841/187504789-091fcadc-59b0-40ee-ab96-4bd51d0cce12.png)
+![image](https://user-images.githubusercontent.com/69398841/192706135-38e23f69-2cca-40c3-acf0-aad7e54f2e4f.png)
 
 Timing Report using OpenSTA:
 ![image](https://user-images.githubusercontent.com/69398841/192698520-9ba65c4d-f059-4328-a0cf-3dfa9e5da43f.png)
