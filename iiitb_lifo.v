@@ -6,7 +6,7 @@ module iiitb_lifo( dataIn, dataOut, RW, EN,
 
                    FULL,
 
-                   Clk
+                   clk
 
                   );
 
@@ -18,7 +18,7 @@ input        RW,
 
              Rst,
 
-             Clk;
+             clk;
 
      
 
@@ -34,7 +34,7 @@ reg  [2:0] SP;
 
 integer i;
 
-always @ (posedge Clk)
+  always @ (posedge clk)
 
 begin
 
