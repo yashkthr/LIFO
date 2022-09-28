@@ -234,20 +234,20 @@ Area Report:
 ![image](https://user-images.githubusercontent.com/69398841/192597344-745bb26b-d951-427f-b96b-b83e376a5fad.png)
 
 Post-Synthesis Stats:
-![image](https://user-images.githubusercontent.com/69398841/187429433-62b20202-8e15-4932-bea7-e41e7629afdd.png)
+![image](https://user-images.githubusercontent.com/69398841/192704809-c10f6561-9bae-44de-8bf6-7647b8738064.png)
 
 ### Flip-Flop to Standard Cell Ratio = 25/127 = 0.19685
+
+Power Report (Internal, Switching, Leakage and Total Power):
+![image](https://user-images.githubusercontent.com/69398841/192704932-f4888384-0acf-4626-a0a0-ab59bfebb51a.png)
+
+TNS, WNS Report, Worst_Slack:
+![image](https://user-images.githubusercontent.com/69398841/187504789-091fcadc-59b0-40ee-ab96-4bd51d0cce12.png)
 
 Timing Report using OpenSTA:
 ![image](https://user-images.githubusercontent.com/69398841/192698520-9ba65c4d-f059-4328-a0cf-3dfa9e5da43f.png)
 ![image](https://user-images.githubusercontent.com/69398841/192698690-a4a45f1a-2db3-4bec-84c2-e4fb8fde0e68.png)
 ![image](https://user-images.githubusercontent.com/69398841/192698463-de058b58-e8f4-4136-9e51-95605e3f2649.png)
-
-Power Report (Internal, Switching, Leakage and Total Power):
-![image](https://user-images.githubusercontent.com/69398841/187496523-7c23d9af-3948-46ee-829b-38d3ee996728.png)
-
-TNS, WNS Report, Worst_Slack:
-![image](https://user-images.githubusercontent.com/69398841/187504789-091fcadc-59b0-40ee-ab96-4bd51d0cce12.png)
 
 ## Author
 - Yash Kothari, Post Graduate Student, IIIT Bangalore
