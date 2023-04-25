@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module iiitb_lifo_tb;
+module lifo_tb;
  // Inputs
  reg [3:0] dataIn;
  reg RW;
@@ -12,7 +12,7 @@ module iiitb_lifo_tb;
  wire EMPTY;
  wire FULL;
  // Instantiate the Unit Under Test (UUT)
- iiitb_lifo uut (
+ lifo uut (
                  .dataIn(dataIn), 
                  .dataOut(dataOut), 
                  .RW(RW), 
