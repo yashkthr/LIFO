@@ -1,4 +1,4 @@
-module iiitb_lifo( dataIn, dataOut, RW, EN,
+module lifo( dataIn, dataOut, RW, EN,
                    Rst,
                    EMPTY,
                    FULL,
